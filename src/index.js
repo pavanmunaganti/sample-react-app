@@ -42,4 +42,4 @@ let bookList = [
 
 render(<Library books={bookList} />, rootElement);
 
-serviceWorker.unregister();
+serviceWorker.register();
