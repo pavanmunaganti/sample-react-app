@@ -3,7 +3,7 @@ import { render } from "react-dom";
 //import SkiDayCounterF from "./SkiDayCounter";
 //import SkiDayCounter from "./SkiDayCounter";
 import { Library } from "./Library";
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from "./serviceWorker";
 
 const rootElement = document.getElementById("root");
 
@@ -36,7 +36,8 @@ let bookList = [
     author: "Madam",
     pages: 1216
   },
-  { title: "Emergency survival tricks", author: "Ramki", pages: 1234 }
+  { title: "Emergency survival tricks", author: "Ramki", pages: 1234 },
+  { title: "Life of hacker", author: "Bokkalanna", pages: 780 }
 ];
 
 render(<Library books={bookList} />, rootElement);
